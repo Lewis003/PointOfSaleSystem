@@ -19,8 +19,6 @@ void main (void)  {
 	printf("====================\n\n");
 	printf("[1] Maize Flour\t\tKsh  = 285.00\n");
 	printf("[2] Baking Flour\t\tKsh = 300.00\n");
-	printf("[3] Toothpaste     \t\tKsh= 76.00\n");
-	printf("[4] Meat\t\tKsh= 300.00\n");
 	
 	printf("\nEnter Code\t : ");
 	scanf("%d", &code );
@@ -32,10 +30,7 @@ void main (void)  {
 		break;
 		case 2: price = 300.00;
 		break;
-		case 3: price = 76.00;
-		break;
-		case 4: price = 300.00;
-		break;
+		
 	}
     amt = price * qty;  
     printf("\nAmount\t\t: %.2f", amt);
