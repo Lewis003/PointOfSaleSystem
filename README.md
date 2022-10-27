@@ -1,0 +1,2 @@
+# PointOfSaleSystem
+coded by C
